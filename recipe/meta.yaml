@@ -1,5 +1,5 @@
 {% set name = "mammoth" %}
-{% set version = "1.9.0" %}
+{% set version = "1.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammoth-{{ version }}.tar.gz
-  sha256: 74f5dae10ca240fd9b7a0e1a6deaebe0aad23bc590633ef6f5e868aa9b7042a6
+  sha256: 7924254ab8f03efe55fadc0fd5f7828db831190eb2679d63cb4372873e71c572
 
 build:
   entry_points:
