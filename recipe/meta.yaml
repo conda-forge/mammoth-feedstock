@@ -1,13 +1,13 @@
 {% set name = "mammoth" %}
-{% set version = "1.12.1" %}
+{% set version = "1.12.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammoth-{{ version }}.tar.gz
-  sha256: 40521e02568583b671d9976b0fbeed50be734b40f73ca8e1939ab7146bf69bbe
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mammoth-{{ version }}.tar.gz
+  sha256: 32c9153105e54c7a9b560e7a35d1923bc27cc1ac292d2b46a929258746cc91bc
 
 build:
   entry_points:
