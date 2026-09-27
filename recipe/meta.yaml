@@ -1,5 +1,5 @@
 {% set name = "mammoth" %}
-{% set version = "1.12.2" %}
+{% set version = "1.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mammoth-{{ version }}.tar.gz
-  sha256: 32c9153105e54c7a9b560e7a35d1923bc27cc1ac292d2b46a929258746cc91bc
+  sha256: b359bee7bc00caba47dacc64286928133dd947917bab852eea01d0c8d8997296
 
 build:
   entry_points:
